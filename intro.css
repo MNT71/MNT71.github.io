@@ -181,6 +181,8 @@ header {
   
   .text {
     font-size: 16px;
+    font-family: LemMed;
+    color: ghostwhite;
     text-align: left;
     display: inline-block;
     vertical-align: top;

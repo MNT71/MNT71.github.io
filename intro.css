@@ -167,10 +167,10 @@ header {
 }
 
 .photo {
-    max-width: 100%;
+    max-width: 1000px;
     height: 600px;
     display: block; 
-    margin: 0 auto 20px; 
+    margin-left: 1em;
 
 p{
     font-size: 10px;

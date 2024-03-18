@@ -171,12 +171,13 @@ header {
 .align-items-center {
     display: flex;
     align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
   }
   
   .image {
     width: 800px;
     height: 400px;
-    margin-left: 150px;
   }
   
   .text {
@@ -186,5 +187,4 @@ header {
     text-align: left;
     display: inline-block;
     vertical-align: top;
-    margin-right: 150px;
   }

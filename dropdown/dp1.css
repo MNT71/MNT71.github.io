@@ -1,11 +1,11 @@
 @font-face {
     font-family: Bebas;
-    src: url(BebasNeue-Regular.ttf);
+    src: url(dropdwon/BebasNeue-Regular.ttf);
 }
 
 @font-face {
     font-family: LemMed;
-    src: url(LEMONMILK-Medium.otf);
+    src: url(dropdown/LEMONMILK-Medium.otf);
 }
 
 h1 {

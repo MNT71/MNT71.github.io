@@ -165,3 +165,8 @@ header {
     margin-bottom: 20px;
     margin-top: 0px;
 }
+
+p{
+    font-size: 10px;
+    text-align: right;
+}

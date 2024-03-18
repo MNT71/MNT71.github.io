@@ -45,7 +45,7 @@ body {
     box-sizing: border-box;
     background-image: linear-gradient(to bottom right, #0A2647, #205295, #5FBDFF);
     justify-content: center;
-    height: 150vh;
+    height: 220vh;
 }
 
 li,
@@ -167,12 +167,15 @@ header {
 }
 
 .photo {
-    max-width: 1000px;
-    height: 600px;
-    display: block; 
-    margin-left: 1em;
-
-p{
-    font-size: 10px;
-    text-align: right;
-}
+    max-width: 300px; /* Adjusted the max-width to better fit the text */
+    height: auto; /* This will automatically adjust the height based on the aspect ratio of the image */
+    display: inline-block; /* Changed from block to inline-block to align the text and image side by side */
+    margin: 0 1em 1em 0; /* Changed margin-left to margin to better position the image */
+  }
+  
+  p {
+    font-size: 16px; /* Increased the font size to make it more readable */
+    text-align: left; /* Changed from right to left to better align with the image */
+    display: inline-block; /* Changed from block to inline-block to align the text and image side by side */
+    vertical-align: top; /* Vertically aligns the text with the top of the image */
+  }

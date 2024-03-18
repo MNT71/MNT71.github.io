@@ -166,16 +166,22 @@ header {
     margin-top: 0px;
 }
 
-.photo {
-    max-width: 300px; /* Adjusted the max-width to better fit the text */
-    height: auto; /* This will automatically adjust the height based on the aspect ratio of the image */
-    display: inline-block; /* Changed from block to inline-block to align the text and image side by side */
-    margin: 0 1em 1em 0; /* Changed margin-left to margin to better position the image */
+/*---------------------------------------*/
+
+.align-items-center {
+    display: flex;
+    align-items: center;
   }
   
-  p {
-    font-size: 16px; /* Increased the font size to make it more readable */
-    text-align: left; /* Changed from right to left to better align with the image */
-    display: inline-block; /* Changed from block to inline-block to align the text and image side by side */
-    vertical-align: top; /* Vertically aligns the text with the top of the image */
+  .image {
+    width: 800px;
+    height: 400px;
+    margin-right: 1em;
+  }
+  
+  .text {
+    font-size: 16px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
   }

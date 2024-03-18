@@ -176,7 +176,7 @@ header {
   .image {
     width: 800px;
     height: 400px;
-    margin-right: 1em;
+    margin-left: 150px;
   }
   
   .text {
@@ -186,4 +186,5 @@ header {
     text-align: left;
     display: inline-block;
     vertical-align: top;
+    margin-left: 150px;
   }

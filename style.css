@@ -193,3 +193,23 @@ header {
 }
 
 /*-----------------------------------------*/
+
+.button {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.button .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: LemMed;
+}
+
+.button .button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}

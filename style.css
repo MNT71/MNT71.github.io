@@ -194,12 +194,12 @@ header {
 
 /*-----------------------------------------*/
 
-.button {
+.next-page-button {
     text-align: center;
     margin-top: 20px; /* Adjust the margin as needed */
 }
 
-.button .button {
+.next-page-button .button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #007bff; /* Button background color */
@@ -210,6 +210,6 @@ header {
     font-family: LemMed;
 }
 
-.button .button:hover {
+.next-page-button .button:hover {
     background-color: #0056b3; /* Button background color on hover */
 }

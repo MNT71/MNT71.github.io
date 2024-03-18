@@ -171,7 +171,7 @@ header {
 .align-items-center {
     display: flex;
     align-items: center;
-    margin-left: 150px; /* Add this line */
+    margin-left: 300px; /* Add this line */
   } 
   
   .image {
@@ -181,11 +181,11 @@ header {
   }
   
   .text {
-    font-size: 25px;
+    font-size: 20px;
     font-family: LemMed;
     color: ghostwhite;
     text-align: left;
     display: inline-block;
     vertical-align: top;
-    margin-right: 150px;
+    margin-right: 300px;
   }

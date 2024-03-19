@@ -178,6 +178,7 @@ header {
     max-width: 350px;
     height: auto;
     margin-right: 50px;
+    margin-bottom: 40px;
   }
   
   .text {
@@ -188,12 +189,13 @@ header {
     display: inline-block;
     vertical-align: top;
     margin-right: 300px;
+    margin-bottom: 40px;
   }
 
   .second-image {
     order: 2;
-    max-width: 350px;
+    max-width: 550px;
     height: auto;
-    margin-right: 50px;
+    margin-right: 3000px;
 }
 

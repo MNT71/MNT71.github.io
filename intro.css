@@ -169,6 +169,7 @@ header {
 /*---------------------------------------*/
 
 /* General styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -220,3 +221,10 @@ section {
     width: 400px;
     height: 400px;
 }
+
+.image2 {
+    width: 450px;
+    height: 400px;
+    margin-right: 300px;
+}
+

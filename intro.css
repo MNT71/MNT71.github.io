@@ -203,7 +203,6 @@ section {
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    margin-left: 300px;
     margin-right: 50px;
 }
 
@@ -220,6 +219,7 @@ section {
     max-width: 350px;
     height: auto;
     margin-left: 50px; /* Updated */
+    margin-right: 300px;
 }
 
 

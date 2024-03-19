@@ -168,32 +168,51 @@ header {
 
 /*---------------------------------------*/
 
-.align-items-center {
-    display: flex;
-    align-items: center;
-    margin-left: 300px; /* Add this line */
-  } 
-  
-  .image {
-    max-width: 350px;
-    height: auto;
-    margin-right: 50px;
-  }
-  
-  .text {
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.text, .part {
+    font-size: 16px;
+}
+
+/* Text class styles */
+.text {
+    color: #333; /* Dark grey color */
     font-size: 20px;
     font-family: LemMed;
     color: ghostwhite;
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    margin-right: 300px;
-  }
+    margin-left: 300px; /* Updated */
+}
 
-  /*.second-image {
-    order: 2;
-    max-width: 550px;
+/* Part class styles */
+.part {
+    color: #666; /* Light grey color */
+}
+
+/* Flipped layout for .align-items-center */
+.align-items-center {
+    display: flex;
+    align-items: center;
+    margin-right: 300px; /* Updated */
+}
+
+/* Image class styles */
+.image {
+    max-width: 350px;
     height: auto;
-    margin-right: 300px;
-}*/
+    margin-left: 50px; /* Updated */
+}
+
 

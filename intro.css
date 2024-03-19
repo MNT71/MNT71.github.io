@@ -192,7 +192,7 @@ section {
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    margin-right: 300px;
+    margin-left: 50px; /* Updated */
 }
 
 /* Part class styles */
@@ -204,27 +204,27 @@ section {
     display: inline-block;
     vertical-align: top;
     margin-left: 300px;
+    margin-right: 50px;
 }
 
 /* Flipped layout for .align-items-center */
 .align-items-center {
     display: flex;
     align-items: center;
+    margin-right: 50px; /* Updated */
+    margin-left: 300px;;
 }
 
 /* Image class styles */
-.image-1 {
-    max-width: 350px;
-    height: auto;
-    margin-left: 300px; /* Updated */
-    margin-right: 500px;
+.image1
+{
+width:200px;
+height:200px;
 }
 
-
-
-.image-2 {
-    max-width: 300px;
-    height: auto;
-    margin-left: 50px;
-    margin-right: 300px;
+.image2
+{
+width:300px;
+height:300px;
 }
+

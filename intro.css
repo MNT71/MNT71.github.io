@@ -207,6 +207,16 @@ section {
     vertical-align: top;
     margin-right: 50px; /* Updated */
 }
+.word {
+    font-size: 20px;
+    font-family: LemMed;
+    color: ghostwhite;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px; /* Updated */
+    margin-right: 300px;
+}
 
 /* Flipped layout for .align-items-center */
 .align-items-center {
@@ -228,3 +238,7 @@ section {
     margin-right: 300px;
 }
 
+.image3 {
+    width: 450px;
+    height: 450px;
+}

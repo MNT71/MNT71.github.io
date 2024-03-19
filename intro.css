@@ -186,26 +186,33 @@ section {
 
 /* Text class styles */
 .text {
-    color: #333; /* Dark grey color */
     font-size: 20px;
     font-family: LemMed;
     color: ghostwhite;
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    margin-left: 300px; /* Updated */
+    margin-left: 50px; /* Updated */
 }
 
 /* Part class styles */
 .part {
-    color: #666; /* Light grey color */
+    font-size: 20px;
+    font-family: LemMed;
+    color: ghostwhite;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 300px;
+    margin-right: 50px;
 }
 
 /* Flipped layout for .align-items-center */
 .align-items-center {
     display: flex;
     align-items: center;
-    margin-right: 300px; /* Updated */
+    margin-right: 50px; /* Updated */
+    margin-left: 300px;;
 }
 
 /* Image class styles */

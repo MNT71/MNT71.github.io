@@ -45,7 +45,7 @@ body {
     box-sizing: border-box;
     background-image: linear-gradient(to bottom right, #0A2647, #205295, #5FBDFF);
     justify-content: center;
-    height: 220vh;
+    height: 400vh;
 }
 
 li,

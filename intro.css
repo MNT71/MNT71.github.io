@@ -181,17 +181,6 @@ header {
     margin-bottom: 40px;
   }
   
-  .text {
-    font-size: 20px;
-    font-family: LemMed;
-    color: ghostwhite;
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 300px;
-    margin-bottom: 40px;
-  }
-
   .second-image {
     order: 2;
     max-width: 550px;
@@ -199,10 +188,33 @@ header {
     margin-right: 3000px;
 }
 
-.text2{
-    font-size: 20px;
+body {
     font-family: LemMed;
+    line-height: 1.6;
     color: ghostwhite;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.text, .part {
+    font-size: 20px;
+}
+
+/* Text class styles */
+.text {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+
+/* Part class styles */
+.part {
     text-align: center;
     display: inline-block;
     vertical-align: top;

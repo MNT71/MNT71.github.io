@@ -178,47 +178,22 @@ header {
     max-width: 350px;
     height: auto;
     margin-right: 50px;
-    margin-bottom: 40px;
   }
   
-  .second-image {
-    order: 2;
-    max-width: 550px;
-    height: auto;
-    margin-right: 3000px;
-}
-
-body {
-    font-family: LemMed;
-    line-height: 1.6;
-    color: ghostwhite;
-}
-
-/* Section styles */
-section {
-    margin-bottom: 20px;
-}
-
-/* Paragraph styles */
-.text, .part {
+  .text {
     font-size: 20px;
-}
-
-/* Text class styles */
-.text {
+    font-family: LemMed;
+    color: ghostwhite;
     text-align: center;
     display: inline-block;
     vertical-align: top;
     margin-right: 300px;
-    margin-bottom: 40px;
-}
+  }
 
-/* Part class styles */
-.part {
-    text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 50px;
-    margin-bottom: 40px;
-}
+  /*.second-image {
+    order: 2;
+    max-width: 550px;
+    height: auto;
+    margin-right: 300px;
+}*/
 

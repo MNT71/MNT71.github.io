@@ -169,11 +169,15 @@ header {
 /*--------------------------------*/
 
 .image {
-    height: 1000px;
+    height: 800px;
     width: auto;
-    align-items: center;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
     border-radius: 5px;
 }
+
 .next-page-button {
     text-align: center;
     margin-top: 20px; /* Adjust the margin as needed */

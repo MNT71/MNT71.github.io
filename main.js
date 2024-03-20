@@ -12,5 +12,5 @@ function carousel() {
         myIndex = 1;
     }
     slides[myIndex-1].style.opacity = "1";  
-    setTimeout(carousel, 5000); // Change image every 6 seconds
+    setTimeout(carousel, 4000); // Change image every 6 seconds
 }

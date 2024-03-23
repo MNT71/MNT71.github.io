@@ -40,7 +40,6 @@ h2 {
 }
 
 body {
-    display: flex;
     align-items: center;
     box-sizing: border-box;
     background-image: linear-gradient(to bottom right, #0A2647, #205295, #5FBDFF);

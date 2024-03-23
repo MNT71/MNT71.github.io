@@ -40,7 +40,7 @@ h2 {
 }
 
 body {
-    display: flex;
+    display: subgrid;
     align-items: center;
     box-sizing: border-box;
     background-image: linear-gradient(to bottom right, #0A2647, #205295, #5FBDFF);
@@ -169,10 +169,11 @@ header {
 /*--------------------------------*/
 
 .image {
-    max-width: 80%; /* Set maximum width of the image */
-    max-height: 80%; /* Set maximum height of the image */
+    max-width: auto; /* Set maximum width of the image */
+    max-height: 800px; /* Set maximum height of the image */
     display: block;
-    margin: auto; /* Center the image horizontally */
+    margin-left: auto;
+    margin-right: auto;
 }
 .next-page-button {
     text-align: center;

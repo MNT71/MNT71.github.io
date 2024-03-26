@@ -165,8 +165,8 @@ header {
 /*--------------------------------*/
 
 .image {
-    max-width: 80%; /* Set maximum width of the image */
-    max-height: 80%; /* Set maximum height of the image */
+    max-width: 50%; /* Set maximum width of the image */
+    max-height: 50%; /* Set maximum height of the image */
     display: block; /* Ensure the image is displayed as a block */
     margin: auto; /* Center the image horizontally */
 }

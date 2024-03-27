@@ -168,12 +168,11 @@ header {
   display: grid;
   padding-top: 100px;
   grid-template-columns: 180px 500px; /* 2 columns */
-  grid-auto-rows: 100px; /* Each row height is 20px */
-  gap: 150px; /* Gap between grid items */
+  grid-auto-rows: 150px; /* Each row height is 20px */
+  gap: 100px; /* Gap between grid items */
   margin: 0 auto; /* Align center horizontally */
   width: fit-content; /* Adjust width to content */
 }
-
 
 .grid-item {
   color: ghostwhite;

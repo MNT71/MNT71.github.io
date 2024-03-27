@@ -164,3 +164,54 @@ header {
 
 /*--------------------------------*/
 
+.grid-container {
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: 180px 500px; /* 2 columns */
+    grid-auto-rows: 150px; /* Each row height is 20px */
+    gap: 100px; /* Gap between grid items */
+    margin: 0 auto; /* Align center horizontally */
+    width: fit-content; /* Adjust width to content */
+  }
+  
+  .grid-item {
+    color: ghostwhite;
+    font-family: LemMed;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .grid-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Your other styling for the container */
+  }
+  
+  .grid-picture img {
+    max-width: 300px;
+    max-height: auto;
+    /* Additional styling for the image if needed */
+  }
+  
+  /*------------------------------------*/
+  
+  .next-page-button {
+      text-align: center;
+      margin-top: 100px; /* Adjust the margin as needed */
+  }
+  
+  .next-page-button .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff; /* Button background color */
+      color: #fff; /* Button text color */
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      font-family: LemMed;
+  }
+  
+  .next-page-button .button:hover {
+      background-color: #0056b3; /* Button background color on hover */
+  }

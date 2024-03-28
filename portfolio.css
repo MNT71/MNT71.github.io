@@ -194,6 +194,12 @@ header {
   /* Additional styling for the image if needed */
 }
 
+/* Added hover effect for better user interaction */
+.grid-picture img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 /*------------------------------------*/
 
 .next-page-button {

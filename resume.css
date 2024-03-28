@@ -170,6 +170,7 @@ header {
     display: block; /* Ensure the image is displayed as a block */
     margin: auto; /* Center the image horizontally */
     transition: transform 0.3s ease; /* Apply transition effect */
+    border-radius: 10px;
 }
 
 .image:hover {

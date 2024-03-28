@@ -191,6 +191,7 @@ header {
 .grid-picture img {
   max-width: 180px;
   max-height: auto;
+  border-radius: 10px;
   /* Additional styling for the image if needed */
 }
 

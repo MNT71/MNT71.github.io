@@ -167,32 +167,37 @@ header {
 .grid-container {
     display: grid;
     padding-top: 60px;
-    grid-template-columns: 450px 500px; /* 2 columns */
-    grid-auto-rows: 600px; /* Each row height is 20px */
-    gap: 50px; /* Gap between grid items */
+    grid-template-columns: 1fr 1fr; /* Adjusted to use fractional units */
+    grid-auto-rows: auto; /* Changed to auto to accommodate variable content */
+    gap: 30px; /* Reduced gap between grid items */
     margin: 0 auto; /* Align center horizontally */
-    width: fit-content; /* Adjust width to content */
-  }
-  
-  .grid-item {
+    max-width: 1000px; /* Added max-width for better responsiveness */
+}
+
+.grid-item {
     color: ghostwhite;
     font-family: LemMed;
     font-size: 20px;
-    padding: 30px;
-  }
-  
-  .grid-picture {
+    padding: 20px; /* Reduced padding for cleaner look */
+}
+
+.grid-picture {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Your other styling for the container */
-  }
-  
-  .grid-picture img {
-    max-width: 400px;
-    max-height: auto;
-    /* Additional styling for the image if needed */
-  }
+}
+
+.grid-picture img {
+    max-width: 100%; /* Adjusted max-width for responsiveness */
+    max-height: 100%; /* Adjusted max-height for responsiveness */
+    border-radius: 10px; /* Added border radius for rounded corners */
+}
+
+/* Added hover effect for better user interaction */
+.grid-picture img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
   
   /*------------------------------------*/
   

@@ -281,6 +281,11 @@ section {
     border-radius: 5px;
 }
 
+/* Apply hover effect */
+.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover {
+    transform: scale(1.05); /* Increase size on hover */
+}
+
 /*--------------------------------*/
 
 .next-page-button {

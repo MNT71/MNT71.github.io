@@ -282,7 +282,7 @@ section {
 }
 
 /* Apply hover effect */
-.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover {
+.image1:hover, .image2:hover, .image-3:hover, .image4:hover, .image5:hover {
     transform: scale(1.05); /* Increase size on hover */
 }
 

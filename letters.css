@@ -166,7 +166,7 @@ header {
 
 .grid-container {
     display: grid;
-    padding-top: 100px;
+    padding-top: 60px;
     grid-template-columns: 300px 500px; /* 2 columns */
     grid-auto-rows: 600px; /* Each row height is 20px */
     gap: 50px; /* Gap between grid items */
@@ -178,7 +178,7 @@ header {
     color: ghostwhite;
     font-family: LemMed;
     font-size: 20px;
-    padding: 10px;
+    padding: 30px;
   }
   
   .grid-picture {

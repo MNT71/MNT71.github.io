@@ -165,3 +165,35 @@ header {
     margin-bottom: 20px;
     margin-top: 0px;
 }
+
+/*-----------------------------*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .text-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .slideshow-container {
+    padding: 20px;
+  }
+  
+  /* Slideshow CSS */
+  .slideshow {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    min-width: 100%;
+  }

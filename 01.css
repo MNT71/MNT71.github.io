@@ -160,7 +160,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Use auto-fit to create as many columns as possible with a minimum width of 200px */
   gap: 20px;
   max-width: 800px;
   background-color: #fff;
@@ -178,7 +178,6 @@
   position: relative;
   overflow: hidden;
   flex: 1;
-  margin-left: 20px;
 }
 
 .slideshow img {

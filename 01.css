@@ -170,12 +170,15 @@
 
 .text {
   text-align: center;
+  flex: 1;
+  padding: 0 10px;
 }
 
 .slideshow {
   position: relative;
   overflow: hidden;
-  margin-top: 20px;
+  flex: 1;
+  margin-left: 20px;
 }
 
 .slideshow img {

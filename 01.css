@@ -167,21 +167,21 @@
 }
 
 .text-container {
-  padding: 20px;
+  padding: 25px;
   font-family: 'LemMed', sans-serif;
 }
 
 .slideshow-container {
   padding: 20px;
   margin: 0 auto; /* Center the slideshow horizontally */
-  max-width: 500px; /* Set max-width for the slideshow container */
 }
 
 .slideshow {
-  width: 100%; /* Use 100% width of its container */
+  width: 500px;
   height: auto;
   overflow: hidden;
   position: relative;
+  margin: 0 auto;
 }
 
 .slideshow img {
@@ -200,13 +200,13 @@
   opacity: 0;
 }
 
-@keyframes slideShow {
+/*@keyframes slideShow {
   0% { opacity: 1; }
   25% { opacity: 0; }
   50% { opacity: 0; }
   75% { opacity: 0; }
   100% { opacity: 1; }
-}
+}*/
 
 
 

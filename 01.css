@@ -160,24 +160,23 @@
 
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Use auto-fit to create as many columns as possible with a minimum width of 200px */
-  gap: 20px;
-  max-width: 800px;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-top: 100px;
+  grid-template-columns: 180px 500px; /* 2 columns */
+  grid-auto-rows: 150px; /* Each row height is 20px */
+  gap: 125px; /* Gap between grid items */
+  margin: 0 auto; /* Align center horizontally */
+  width: fit-content; /* Adjust width to content */
 }
-
 .text {
   text-align: center;
   flex: 1;
   padding: 0 10px;
 }
 
-.slideshow {
-  position: relative;
-  overflow: hidden;
-  flex: 1;
+.grid-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slideshow img {

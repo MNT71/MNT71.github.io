@@ -158,19 +158,9 @@
 
 /*------------------------------*/
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-}
-
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   max-width: 800px;
   background-color: #fff;
@@ -178,9 +168,14 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.text {
+  text-align: center;
+}
+
 .slideshow {
   position: relative;
   overflow: hidden;
+  margin-top: 20px;
 }
 
 .slideshow img {

@@ -160,7 +160,7 @@
 
 .container {
   display: grid;
-  padding-top: 100px;
+  padding-top: 70px;
   grid-template-columns: 500px 500px; /* 2 columns */
   grid-auto-rows: 150px; /* Each row height is 150px */
   gap: 125px; /* Gap between grid items */
@@ -181,7 +181,7 @@
 }
 
 .slideshow img {
-  width: 100%;
+  width: 70%;
   height: auto;
   display: none;
 }

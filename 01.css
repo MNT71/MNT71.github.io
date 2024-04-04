@@ -170,6 +170,7 @@
 
 .text {
   text-align: center;
+  font-size: 1vmax;
   padding: 0 10px;
   width: 100%; /* Set width to 100% to fit all text */
 }
@@ -181,7 +182,7 @@
 }
 
 .slideshow img {
-  width: 50%;
+  width: 75%;
   height: auto;
   display: none;
 }
@@ -196,7 +197,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 220px; /* Adjust the margin as needed */
+    margin-top: 250px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {

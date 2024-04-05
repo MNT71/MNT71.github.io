@@ -198,6 +198,7 @@
   }
   
   .slideshow {
+    width: 200px;
     position: relative;
     overflow: hidden;
     flex: 1;

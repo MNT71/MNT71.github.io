@@ -170,7 +170,7 @@
 
 .text {
   text-align: center;
-  font-size: 1vmax;
+  font-size: 0.9vmax;
   padding: 0 10px;
   width: 100%; /* Set width to 100% to fit all text */
 }
@@ -197,7 +197,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 450px; /* Adjust the margin as needed */
+    margin-top: 400px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {

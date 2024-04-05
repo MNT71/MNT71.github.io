@@ -197,17 +197,8 @@
     align-items: center;
   }
   
-  .slideshow {
-    position: relative;
-    overflow: hidden;
-    flex: 1;
-    margin-left: auto; /* Adjusted margin to center the slideshow */
-    margin-right: auto; /* Adjusted margin to center the slideshow */
-    margin-top: auto; /* Move the slideshow to the bottom of the grid box */
-  }
-  
   .slideshow img {
-    width: 400px; /* Increased width of the slideshow images */
+    width: 100%;
     height: auto;
     display: none;
   }

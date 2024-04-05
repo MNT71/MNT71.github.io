@@ -180,7 +180,7 @@
 .text {
   font-family: 'Solid';
   text-align: center;
-  font-size: 0.9vmax;
+  font-size: 1vmax;
   padding: 0 10px;
   width: 100%; 
   color: ghostwhite;
@@ -188,7 +188,7 @@
 
 .bold{
   font-family: 'Solid';
-  color: black;
+  color: #00aaff;
 }
 
 .grid-picture {

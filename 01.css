@@ -8,6 +8,15 @@
     src: url('LEMONMILK-Medium.otf') format('opentype');
   }
 
+  @font-face {
+    font-family: 'Bubble';
+    src: url('JandaManateeBubble.ttf');
+  }
+
+  @font-face {
+    font-family: 'Solid';
+    src: url('JandaManateeSolid.ttf');
+  }
   h1 {
     font-size: 50px;
     font-family: 'Bebas', sans-serif;
@@ -169,10 +178,15 @@
 }
 
 .text {
+  font-family: 'Bubble';
   text-align: center;
   font-size: 0.9vmax;
   padding: 0 10px;
-  width: 100%; /* Set width to 100% to fit all text */
+  width: 100%; 
+}
+
+.bold{
+  font-family: 'Solid';
 }
 
 .grid-picture {

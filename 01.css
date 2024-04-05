@@ -178,12 +178,12 @@
 }
 
 .text {
-  font-family: 'Bubble';
+  font-family: 'Solid';
   text-align: center;
   font-size: 0.9vmax;
   padding: 0 10px;
   width: 100%; 
-  color: black;
+  color: ghostwhite;
 }
 
 .bold{

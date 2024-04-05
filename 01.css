@@ -55,7 +55,8 @@
     background-image: linear-gradient(to bottom right, #0A2647, #205295, #5FBDFF);
     justify-content: center;
     height: 100vh;
-    color: black;
+    font-family: 'LemMed', sans-serif;
+    color: #BBE1FA;
   }
 
   li,
@@ -182,10 +183,12 @@
   font-size: 0.9vmax;
   padding: 0 10px;
   width: 100%; 
+  color: black;
 }
 
 .bold{
   font-family: 'Solid';
+  color: black;
 }
 
 .grid-picture {

@@ -198,6 +198,7 @@
 }
 
 .slideshow img {
+  margin-top: 200px;
   width: 125%;
   height: auto;
   display: none;

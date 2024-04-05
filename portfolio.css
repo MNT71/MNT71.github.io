@@ -188,12 +188,26 @@ header {
   /* Your other styling for the container */
 }
 
+.grid-picture2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Your other styling for the container */
+  }
+  
 .grid-picture img {
   max-width: 180px;
   max-height: auto;
   border-radius: 10px;
   /* Additional styling for the image if needed */
 }
+
+.grid-picture2 img {
+    max-width: 220px;
+    max-height: auto;
+    border-radius: 10px;
+    /* Additional styling for the image if needed */
+  }
 
 /* Added hover effect for better user interaction */
 .grid-picture img:hover {

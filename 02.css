@@ -172,33 +172,32 @@
     padding-top: 30px;
     grid-template-columns: 900px 800px; /* Increased width for text boxes */
     grid-auto-rows: 150px; /* Each row height is 150px */
-    gap: 125px; /* Gap between grid items */
+    gap: 50px; /* Decreased gap between grid items */
     margin: 0 auto; /* Align center horizontally */
     width: fit-content; /* Adjust width to content */
   }
   
-
-.text {
-  font-family: 'Solid';
-  text-align: center;
-  font-size: 1.2vmax;
-  padding: 0 10px;
-  width: 100%; 
-  color: ghostwhite;
-}
-
-.bold{
-  font-family: 'Solid';
-  color: #00aaff;
-}
-
-.grid-picture {
+  .text {
+    font-family: 'Solid';
+    text-align: center;
+    font-size: 1.2vmax;
+    padding: 0 10px;
+    width: 100%; 
+    color: ghostwhite;
+  }
+  
+  .bold{
+    font-family: 'Solid';
+    color: #00aaff;
+  }
+  
+  .grid-picture {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-.slideshow {
+  
+  .slideshow {
     position: relative;
     overflow: hidden;
     flex: 1;
@@ -216,8 +215,6 @@
     display: block;
   }
   
-
-
 
 /*--------------------------------*/
 

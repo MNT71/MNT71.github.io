@@ -198,8 +198,6 @@
   }
   
   .slideshow {
-    width: 400px; /* Increased width of the slideshow container */
-    height: auto;
     position: relative;
     overflow: hidden;
     flex: 1;
@@ -209,7 +207,7 @@
   }
   
   .slideshow img {
-    width: 400%; /* Increased width of the slideshow images */
+    width: 400px; /* Increased width of the slideshow images */
     height: auto;
     display: none;
   }

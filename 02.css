@@ -191,22 +191,24 @@
   color: #00aaff;
 }
 
-.grid-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.slideshow img {
-  margin-top: 200px;
-  width: 125%;
-  height: auto;
-  display: none;
-}
-
-.slideshow img.active {
-  display: block;
-}
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    margin-left: 20px;
+    margin-top: auto; /* Move the slideshow to the bottom of the grid box */
+  }
+  
+  .slideshow img {
+    width: 125%;
+    height: auto;
+    display: none;
+  }
+  
+  .slideshow img.active {
+    display: block;
+  }
+  
 
 
 

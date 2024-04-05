@@ -199,6 +199,7 @@
   
   .slideshow {
     width: 400px; /* Increased width of the slideshow container */
+    height: auto;
     position: relative;
     overflow: hidden;
     flex: 1;

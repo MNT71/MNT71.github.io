@@ -198,16 +198,17 @@
   }
   
   .slideshow {
-    width: 200px;
+    width: 400px; /* Increased width of the slideshow container */
     position: relative;
     overflow: hidden;
     flex: 1;
-    margin-left: 20px;
+    margin-left: auto; /* Adjusted margin to center the slideshow */
+    margin-right: auto; /* Adjusted margin to center the slideshow */
     margin-top: auto; /* Move the slideshow to the bottom of the grid box */
   }
   
   .slideshow img {
-    width: 200%;
+    width: 400%; /* Increased width of the slideshow images */
     height: auto;
     display: none;
   }

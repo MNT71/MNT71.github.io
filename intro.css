@@ -198,7 +198,7 @@ section {
 
 /* Text class styles */
 .text {
-    font-size: 20px;
+    font-size: 1.2vmax;
     font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
@@ -210,7 +210,7 @@ section {
 
 /* Part class styles */
 .part {
-    font-size: 20px;
+    font-size: 1.2vmax;
     font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
@@ -219,7 +219,7 @@ section {
     margin-right: 50px; /* Updated */
 }
 .word {
-    font-size: 20px;
+    font-size: 1.2vmax;
     font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
@@ -230,7 +230,7 @@ section {
 }
 
 .type {
-    font-size: 20px;
+    font-size: 1.2vmax;
     font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
@@ -240,7 +240,7 @@ section {
 }
 
 .mark {
-    font-size: 20px;
+    font-size: 1.2vmax;
     font-family: 'Solid';
     color: ghostwhite;
     text-align: center;

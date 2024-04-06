@@ -192,10 +192,17 @@
 }
 
 .grid-picture {
-  margin-top: 50px;
+  margin-top: 50px; /* Adjusted margin-top */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.slideshow {
+  margin-top: 50px; /* Adjusted margin-top */
+  position: relative;
+  overflow: hidden;
+  flex: 1;
 }
 
 .slideshow img {
@@ -207,6 +214,7 @@
 .slideshow img.active {
   display: block;
 }
+
 
 
 /*--------------------------------*/

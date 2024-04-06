@@ -8,6 +8,16 @@
     src: url(LEMONMILK-Medium.otf);
 }
 
+@font-face {
+    font-family: 'Bubble';
+    src: url('JandaManateeBubble.ttf');
+  }
+
+  @font-face {
+    font-family: 'Solid';
+    src: url('JandaManateeSolid.ttf');
+  }
+
 h1 {
     font-size: 50px;
     font-family: Bebas;
@@ -189,7 +199,7 @@ section {
 /* Text class styles */
 .text {
     font-size: 20px;
-    font-family: LemMed;
+    font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -201,7 +211,7 @@ section {
 /* Part class styles */
 .part {
     font-size: 20px;
-    font-family: LemMed;
+    font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -210,7 +220,7 @@ section {
 }
 .word {
     font-size: 20px;
-    font-family: LemMed;
+    font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -221,7 +231,7 @@ section {
 
 .type {
     font-size: 20px;
-    font-family: LemMed;
+    font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -231,7 +241,7 @@ section {
 
 .mark {
     font-size: 20px;
-    font-family: LemMed;
+    font-family: 'Solid';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -246,6 +256,11 @@ section {
     align-items: center;
     margin-right: 50px; /* Updated */
     margin-left: 300px; /* Corrected */
+}
+
+.bold {
+    font-family: 'Solid';
+    color: #00aaff;
 }
 
 /* Image class styles */

@@ -265,8 +265,8 @@ section {
 
 /* Image class styles */
 .image1 {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: auto;
     border-radius: 5px;
 }
 

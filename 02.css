@@ -170,7 +170,7 @@
 .container {
   display: grid;
   padding-top: 30px;
-  grid-template-columns: 1fr; /* Adjusted grid template columns */
+  grid-template-columns: 800px 500px; /* Adjusted grid template columns */
   grid-auto-rows: 150px; /* Each row height is 150px */
   gap: 50px; /* Decreased gap between grid items */
   margin: 0 auto; /* Align center horizontally */

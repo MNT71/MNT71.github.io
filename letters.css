@@ -8,6 +8,16 @@
     src: url(LEMONMILK-Medium.otf);
 }
 
+@font-face {
+    font-family: 'Bubble';
+    src: url('JandaManateeBubble.ttf');
+  }
+
+  @font-face {
+    font-family: 'Solid';
+    src: url('JandaManateeSolid.ttf');
+}
+
 h1 {
     font-size: 50px;
     font-family: Bebas;
@@ -176,9 +186,15 @@ header {
 
 .grid-item {
     color: ghostwhite;
-    font-family: LemMed;
+    font-family: 'Solid';
     font-size: 20px;
     padding: 20px; /* Reduced padding for cleaner look */
+}
+
+.bold {
+    font-family: 'Solid';
+    color: #00aaff;
+    font-size: 20px;
 }
 
 .grid-picture {

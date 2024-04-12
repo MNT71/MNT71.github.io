@@ -192,13 +192,14 @@ color: #00aaff;
 }
 
 .grid-picture {
-display: flex;
-justify-content: center;
-align-items: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slideshow img {
-width: 87%;
+width: 100%;
 height: auto;
 display: none;
 }

@@ -197,14 +197,17 @@ justify-content: center;
 align-items: center;
 }
 
-.slideshow img {
-width: 78%;
-height: auto;
-display: none;
+.slideshow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.slideshow img.active {
-display: block;
+.slideshow video {
+  max-width: 100%; /* Ensure the video doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
 }
 
 

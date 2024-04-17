@@ -176,6 +176,30 @@ header {
     margin-top: 0px;
 }
 
+/* Styles for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Styles for the picture2 container */
+  .picture2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Styles for the images */
+  .pic {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
+  }
+  
 /*----------------------------------------*/
 
 .next-page-button {

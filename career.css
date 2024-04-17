@@ -176,20 +176,14 @@ header {
     margin-top: 0px;
 }
 
+/*----------------------------------*/
+
 /* Styles for the container */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px; /* Adjust margin as needed */
-  }
-  
-  /* Styles for the picture2 container */
-  .picture2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px; /* Adjust margin as needed */
+/* Styles for the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 20px; /* Gap between grid items */
   }
   
   /* Styles for the images */
@@ -199,6 +193,13 @@ header {
     border-radius: 8px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
   }
+  
+  /* Optional: Center the images within their grid cells */
+  .pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
   
 /*----------------------------------------*/
 

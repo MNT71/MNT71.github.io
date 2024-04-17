@@ -206,7 +206,7 @@ header {
   }
   
   .pic-container2 {
-    width: 50px; /* Adjust width as needed */
+    width: 150px; /* Adjust width as needed */
     height: auto; /* Ensure height adjusts based on image aspect ratio */
     display: flex;
     justify-content: center;
@@ -214,7 +214,7 @@ header {
   }
   
   .pic-container3 {
-    width: 200px; /* Adjust width as needed */
+    width: 220px; /* Adjust width as needed */
     height: auto; /* Ensure height adjusts based on image aspect ratio */
     display: flex;
     justify-content: center;

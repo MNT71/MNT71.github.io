@@ -195,14 +195,16 @@ header {
   
   /* Optional: Center the images within their grid cells */
   .pic-container {
-    size: 10%;
+    width: auto;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .pic-container2 {
-    size: 12%;
+    width: auto;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;

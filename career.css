@@ -178,11 +178,14 @@ header {
 
 /*----------------------------------*/
 
+/* Styles for the grid container */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
     grid-gap: 20px; /* Gap between grid items */
     padding: 0 20px; /* Add padding to the grid container */
+    margin: 0 auto; /* Center the grid container horizontally */
+    max-width: 800px; /* Optional: Set maximum width for the grid container */
   }
   
   /* Styles for the images */
@@ -195,22 +198,21 @@ header {
   
   /* Optional: Center the images within their grid cells */
   .pic-container {
-    width: 400px;
-    height: auto;
+    width: 400px; /* Adjust width as needed */
+    height: auto; /* Ensure height adjusts based on image aspect ratio */
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  
   .pic-container2 {
-    width: 300px;
-    height: auto;
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Ensure height adjusts based on image aspect ratio */
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-
+  
   
 /*----------------------------------------*/
 

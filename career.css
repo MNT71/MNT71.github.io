@@ -198,7 +198,7 @@ header {
   
   /* Optional: Center the images within their grid cells */
   .pic-container {
-    width: 400px; /* Adjust width as needed */
+    width: 700px; /* Adjust width as needed */
     height: auto; /* Ensure height adjusts based on image aspect ratio */
     display: flex;
     justify-content: center;

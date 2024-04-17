@@ -197,14 +197,21 @@
   align-items: center;
 }
 
-.slideshow img {
-  width: 78%;
-  height: auto;
-  display: none;
+video {
+  /* Example styles */
+  width: 100%; /* Make the video fill its container horizontally */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure it's displayed as a block element */
+  margin: 0 auto; /* Center the video horizontally */
 }
 
-.slideshow img.active {
-  display: block;
+/* Optionally, you can target specific classes or IDs */
+.container video {
+  /* Styles specific to the video inside the container */
+}
+
+.slideshow video {
+  /* Styles specific to the video inside the slideshow */
 }
 
 

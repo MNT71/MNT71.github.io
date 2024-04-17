@@ -197,33 +197,23 @@ header {
   }
   
   /* Optional: Center the images within their grid cells */
-  .pic-container {
-    width: 400px; /* Adjust width as needed */
-    height: auto; /* Ensure height adjusts based on image aspect ratio */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .pic-container2 {
-    width: 180px; /* Adjust width as needed */
-    height: auto; /* Ensure height adjusts based on image aspect ratio */
+  .pic-container,
+  .pic-container2,
+  .pic-container3 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .pic-container3 {
-    width: 220px; /* Adjust width as needed */
-    height: auto; /* Ensure height adjusts based on image aspect ratio */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-column: 1 / 3; /* Make the third image span both columns */
   }
-
-  .pic-container,.pic-container2,.pic-container3 {
+  
+  .pic-container:hover,
+  .pic-container2:hover,
+  .pic-container3:hover {
     transform: scale(1.05); /* Increase size on hover */
-}
+  }
   
 /*----------------------------------------*/
 

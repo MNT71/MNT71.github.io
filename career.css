@@ -198,7 +198,7 @@ header {
   
   /* Optional: Center the images within their grid cells */
   .pic-container {
-    width: 700px; /* Adjust width as needed */
+    width: 400px; /* Adjust width as needed */
     height: auto; /* Ensure height adjusts based on image aspect ratio */
     display: flex;
     justify-content: center;
@@ -206,13 +206,20 @@ header {
   }
   
   .pic-container2 {
-    width: 300px; /* Adjust width as needed */
+    width: 50px; /* Adjust width as needed */
     height: auto; /* Ensure height adjusts based on image aspect ratio */
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+  .pic-container3 {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Ensure height adjusts based on image aspect ratio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
 /*----------------------------------------*/
 

@@ -198,47 +198,52 @@
 }
 
 video {
-  width: 100%; /* Make the video fill its container horizontally */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure it's displayed as a block element */
-  border-radius: 8px; /* Add some rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  width: 100%;
+  height: auto;
 }
 
-/* Optional: Add styles for the video controls */
-video::-webkit-media-controls {
-  display: none; /* Hide default controls for WebKit browsers (Chrome, Safari) */
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-/* Optional: Add custom styles for controls */
-.video-controls {
-  position: relative;
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
 }
 
-/* Style for play/pause button */
-.video-controls button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.8);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  cursor: pointer;
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
 }
 
-/* Style for play icon */
-.video-controls button::before {
-  content: "\25B6"; /* Unicode character for play */
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 }
 
-/* Style for pause icon */
-.video-controls button.pause::before {
-  content: "\II"; /* Unicode character for pause */
-}
 /*--------------------------------*/
 
 .next-page-button {

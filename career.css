@@ -178,39 +178,37 @@ header {
 
 /*----------------------------------*/
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-gap: 20px; /* Gap between grid items */
-    padding: 0 20px; /* Add padding to the grid container */
-  }
-  
-  /* Styles for the images */
-  .pic {
-    width: 100%; /* Ensure the image fills its container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Add rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
-  }
-  
-  /* Optional: Center the images within their grid cells */
-  .pic-container {
-    width: 400px;
-    height: auto;
+.align-items-center {
     display: flex;
-    justify-content: center;
     align-items: center;
-  }
+    margin-right: 50px; /* Updated */
+    margin-left: 300px; /* Corrected */
+}
 
-  .pic-container2 {
-    width: 300px;
+/* Image class styles */
+.image1 {
+    width: 450px;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    border-radius: 5px;
+}
 
+.image2 {
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
 
+.image3 {
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image4 {
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
   
 /*----------------------------------------*/
 

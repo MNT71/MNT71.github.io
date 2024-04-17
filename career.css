@@ -199,7 +199,15 @@ header {
     justify-content: center;
     align-items: center;
   }
-  
+
+  .pic-container2 {
+    size: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
   
 /*----------------------------------------*/
 

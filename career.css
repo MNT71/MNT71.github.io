@@ -178,17 +178,16 @@ header {
 
 /*----------------------------------*/
 
-/* Styles for the container */
-/* Styles for the grid container */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
     grid-gap: 20px; /* Gap between grid items */
+    padding: 0 20px; /* Add padding to the grid container */
   }
   
   /* Styles for the images */
   .pic {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    width: 100%; /* Ensure the image fills its container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Add rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
@@ -199,7 +198,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-  }  
+  }
+  
   
 /*----------------------------------------*/
 

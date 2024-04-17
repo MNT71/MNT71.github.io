@@ -195,6 +195,7 @@ header {
   
   /* Optional: Center the images within their grid cells */
   .pic-container {
+    size: 30%;
     display: flex;
     justify-content: center;
     align-items: center;

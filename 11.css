@@ -198,24 +198,47 @@
 }
 
 video {
-  /* Example styles */
   width: 100%; /* Make the video fill its container horizontally */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Ensure it's displayed as a block element */
-  margin: 0 auto; /* Center the video horizontally */
+  border-radius: 8px; /* Add some rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
-/* Optionally, you can target specific classes or IDs */
-.container video {
-  /* Styles specific to the video inside the container */
+/* Optional: Add styles for the video controls */
+video::-webkit-media-controls {
+  display: none; /* Hide default controls for WebKit browsers (Chrome, Safari) */
 }
 
-.slideshow video {
-  /* Styles specific to the video inside the slideshow */
+/* Optional: Add custom styles for controls */
+.video-controls {
+  position: relative;
 }
 
+/* Style for play/pause button */
+.video-controls button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
 
+/* Style for play icon */
+.video-controls button::before {
+  content: "\25B6"; /* Unicode character for play */
+}
 
+/* Style for pause icon */
+.video-controls button.pause::before {
+  content: "\II"; /* Unicode character for pause */
+}
 /*--------------------------------*/
 
 .next-page-button {

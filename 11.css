@@ -198,16 +198,12 @@ align-items: center;
 }
 
 .slideshow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 20px; /* Adjust spacing as needed */
 }
 
-.slideshow video {
-  max-width: 100%; /* Ensure the video doesn't exceed its container */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 8px; /* Add rounded corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
+video {
+  width: 100%; /* Make the video responsive */
+  max-width: 600px; /* Adjust according to your layout */
 }
 
 

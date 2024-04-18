@@ -163,76 +163,73 @@ header {
 }
 
 /*------------------------------------------------*/
-
 .grid-container {
-  display: grid;
-  padding-top: 100px;
-  grid-template-columns: 180px 500px; /* 2 columns */
-  grid-auto-rows: 150px; /* Each row height is 20px */
-  gap: 100px; /* Gap between grid items */
-  margin: 0 auto; /* Align center horizontally */
-  width: fit-content; /* Adjust width to content */
-}
-
-.grid-item {
-  color: ghostwhite;
-  font-family: LemMed;
-  font-size: 20px;
-  padding: 10px;
-}
-
-.grid-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  /* Your other styling for the container */
-}
-
-.grid-picture2 {
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width */
+    grid-auto-rows: 150px; /* Each row height */
+    gap: 20px; /* Gap between grid items */
+    margin: 0 auto; /* Align center horizontally */
+    width: fit-content; /* Adjust width to content */
+  }
+  
+  .grid-item {
+    color: ghostwhite;
+    font-family: LemMed;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px; /* Add margin between grid items */
+  }
+  
+  .grid-picture {
     display: flex;
     justify-content: center;
     align-items: center;
     /* Your other styling for the container */
   }
-
+  
+  .grid-picture2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Your other styling for the container */
+  }
+  
   .grid-picture3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     /* Your other styling for the container */
   }
   
-.grid-picture img {
-  max-width: 200px;
-  max-height: auto;
-  border-radius: 10px;
-  /* Additional styling for the image if needed */
-}
-
-.grid-picture2 img {
+  .grid-picture img {
+    max-width: 200px;
+    max-height: auto;
+    border-radius: 10px;
+    /* Additional styling for the image if needed */
+  }
+  
+  .grid-picture2 img {
     max-width: 250px;
     max-height: auto;
     border-radius: 10px;
     /* Additional styling for the image if needed */
   }
-
+  
   .grid-picture3 img {
     max-width: 200px;
     max-height: auto;
     border-radius: 10px;
-    
   }
-
-/* Added hover effect for better user interaction */
-.grid-picture img:hover, .grid-picture2 img:hover, .grid-picture3 img:hover {
+  
+  /* Added hover effect for better user interaction */
+  .grid-picture img:hover,
+  .grid-picture2 img:hover,
+  .grid-picture3 img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
-}
-
+  }
+  
 /*------------------------------------*/
 
 .next-page-button {

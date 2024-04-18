@@ -212,7 +212,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 85px;
   }
 
   .pic-container:hover, .pic-container2:hover {

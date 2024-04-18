@@ -168,7 +168,8 @@ header {
     padding-top: 100px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width */
     grid-auto-rows: 150px; /* Each row height */
-    gap: 20px; /* Gap between grid items */
+    row-gap: 40px; /* Increase the vertical gap between grid items */
+    column-gap: 20px; /* Increase the horizontal gap between grid items */
     margin: 0 auto; /* Align center horizontally */
     width: fit-content; /* Adjust width to content */
   }

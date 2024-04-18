@@ -215,7 +215,7 @@ header {
     margin-top: 150px;
   }
 
-  .pic-container:hover {
+  .pic-container:hover, .pic-container2:hover {
     transform: scale(1.05); /* Increase size on hover */
   }
   

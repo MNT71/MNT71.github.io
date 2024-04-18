@@ -201,8 +201,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     /* Your other styling for the container */
   }
   
@@ -224,7 +224,7 @@ header {
     max-width: 200px;
     max-height: auto;
     border-radius: 10px;
-    /* Additional styling for the image if needed */
+    
   }
 
 /* Added hover effect for better user interaction */

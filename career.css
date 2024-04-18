@@ -228,6 +228,11 @@ header {
     vertical-align: top;
     padding: 10px; /* Adjust padding as needed */
 }
+
+.bold {
+    font-family: 'Solid';
+    color: #00aaff;
+}
   
 /*----------------------------------------*/
 

@@ -218,6 +218,16 @@ header {
   .pic-container:hover, .pic-container2:hover {
     transform: scale(1.05); /* Increase size on hover */
   }
+
+  .word {
+    font-size: 1.2vmax;
+    font-family: 'Solid';
+    color: ghostwhite;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px; /* Adjust padding as needed */
+}
   
 /*----------------------------------------*/
 

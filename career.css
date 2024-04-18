@@ -186,6 +186,7 @@ header {
     padding: 0 10px; /* Add padding to the grid container */
     margin: 0 auto; /* Center the grid container horizontally */
     max-width: 800px; /* Optional: Set maximum width for the grid container */
+    margin-top: 40px;
   }
   
   /* Styles for the images */

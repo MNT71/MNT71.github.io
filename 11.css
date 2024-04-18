@@ -178,33 +178,36 @@ width: fit-content; /* Adjust width to content */
 }
 
 .text {
-font-family: 'Solid';
-text-align: center;
-font-size: 1.2vmax;
-padding: 0 10px;
-width: 100%; 
-color: ghostwhite;
+  font-family: 'Solid';
+  text-align: center;
+  font-size: 1.2vmax;
+  padding: 0 10px;
+  width: 100%; 
+  color: ghostwhite;
 }
 
 .bold{
-font-family: 'Solid';
-color: #00aaff;
+  font-family: 'Solid';
+  color: #00aaff;
 }
 
 .grid-picture {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.slideshow {
-  margin-top: 20px; /* Adjust spacing as needed */
+.slideshow img {
+  width: 78%;
+  height: auto;
+  display: none;
 }
 
-video {
-  width: 100%; /* Make the video responsive */
-  max-width: 600px; /* Adjust according to your layout */
+.slideshow img.active {
+  display: block;
 }
+
+
 
 /*--------------------------------*/
 

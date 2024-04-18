@@ -165,8 +165,8 @@ header {
 /*------------------------------------------------*/
 .grid-container {
     display: grid;
-    padding-top: 100px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width */
+    padding-top: 100px; 
+    grid-template-columns: 180px 500px; ; /* Adjust column width */
     grid-auto-rows: 150px; /* Each row height */
     row-gap: 40px; /* Increase the vertical gap between grid items */
     column-gap: 20px; /* Increase the horizontal gap between grid items */

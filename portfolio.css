@@ -196,8 +196,17 @@ header {
     align-items: center;
     /* Your other styling for the container */
   }
+
+  .grid-picture3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* Your other styling for the container */
+  }
   
-.grid-picture img {
+.grid-picture img, .grid-picture3 img {
   max-width: 200px;
   max-height: auto;
   border-radius: 10px;

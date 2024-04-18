@@ -213,6 +213,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 85px;
+    margin-bottom: 50px;
   }
 
   .pic-container:hover, .pic-container2:hover {
@@ -226,7 +227,8 @@ header {
     text-align: center;
     display: inline-block;
     vertical-align: top;
-    padding: 10px; /* Adjust padding as needed */
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .bold {

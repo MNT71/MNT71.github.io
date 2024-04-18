@@ -182,7 +182,7 @@ header {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-gap: 10px; /* Gap between grid items */
+    grid-gap: 0px; /* Gap between grid items */
     padding: 0 10px; /* Add padding to the grid container */
     margin: 0 auto; /* Center the grid container horizontally */
     max-width: 800px; /* Optional: Set maximum width for the grid container */

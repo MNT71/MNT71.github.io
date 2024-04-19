@@ -170,8 +170,8 @@
 .container {
   display: grid;
   padding-top: 30px;
-  grid-template-columns: 800px 500px; /* 2 columns */
-  grid-auto-rows: 150px; /* Each row height is 150px */
+  grid-template-columns: 800px 500px; /* Adjusted grid template columns */
+  grid-auto-rows: 500px; /* Each row height is 150px */
   gap: 50px; /* Decreased gap between grid items */
   margin: 0 auto; /* Align center horizontally */
   max-width: 1300px; /* Added max-width for the container */
@@ -182,13 +182,20 @@
   text-align: center;
   font-size: 1.2vmax;
   padding: 0 10px;
-  width: 100%; 
+  width: 100%;
   color: ghostwhite;
 }
 
-.bold{
+.bold {
   font-family: 'Solid';
   color: #00aaff;
+}
+
+.grid-picture {
+  margin-top: 50px; /* Adjusted margin-top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slideshow {

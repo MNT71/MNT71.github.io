@@ -191,6 +191,13 @@
   color: #00aaff;
 }
 
+.grid-picture {
+  margin-top: 50px; /* Adjusted margin-top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .slideshow {
   margin-top: 80px; /* Adjusted margin-top */
   position: relative;

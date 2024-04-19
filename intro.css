@@ -199,7 +199,7 @@ section {
 /* Text class styles */
 .text {
     font-size: 1.2vmax;
-    font-family: 'Solid';
+    font-family: 'Bebas';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -211,7 +211,7 @@ section {
 /* Part class styles */
 .part {
     font-size: 1.2vmax;
-    font-family: 'Solid';
+    font-family: 'Bebas';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -220,7 +220,7 @@ section {
 }
 .word {
     font-size: 1.2vmax;
-    font-family: 'Solid';
+    font-family: 'Bebas';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -231,7 +231,7 @@ section {
 
 .type {
     font-size: 1.2vmax;
-    font-family: 'Solid';
+    font-family: 'Bebas';
     color: ghostwhite;
     text-align: center;
     display: inline-block;
@@ -241,7 +241,7 @@ section {
 
 .mark {
     font-size: 1.2vmax;
-    font-family: 'Solid';
+    font-family: 'Bebas';
     color: ghostwhite;
     text-align: center;
     display: inline-block;

@@ -9,4 +9,4 @@ let slides = document.querySelectorAll('.slide');
 
     setInterval(() => {
         showSlide(currentSlide + 1);
-    }, 3500);
+    }, 2500);

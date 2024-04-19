@@ -191,14 +191,15 @@
   color: #00aaff;
 }
 
-.grid-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.slideshow {
+  margin-top: 80px; /* Adjusted margin-top */
+  position: relative;
+  overflow: hidden;
+  flex: 1;
 }
 
 .slideshow img {
-  width: 78%;
+  width: 99%;
   height: auto;
   display: none;
 }

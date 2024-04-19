@@ -187,8 +187,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     /* Your other styling for the container */
   }
   
@@ -203,8 +203,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     /* Your other styling for the container */
   }
   

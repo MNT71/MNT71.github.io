@@ -205,7 +205,7 @@ section {
     display: inline-block;
     vertical-align: top;
     margin-left: 50px; /* Updated */
-    margin-right: 300px;
+    margin-right: 200px;
 }
 
 /* Part class styles */
@@ -226,7 +226,7 @@ section {
     display: inline-block;
     vertical-align: top;
     margin-left: 50px; /* Updated */
-    margin-right: 300px;
+    margin-right: 200px;
 }
 
 .type {
@@ -247,7 +247,7 @@ section {
     display: inline-block;
     vertical-align: top;
     margin-left: 50px; /* Updated */
-    margin-right: 300px;   
+    margin-right: 200px;   
 }
 
 /* Flipped layout for .align-items-center */
@@ -255,7 +255,7 @@ section {
     display: flex;
     align-items: center;
     margin-right: 50px; /* Updated */
-    margin-left: 300px; /* Corrected */
+    margin-left: 200px; /* Corrected */
 }
 
 .bold {
@@ -273,7 +273,7 @@ section {
 .image2 {
     width: 450px;
     height: 400px;
-    margin-right: 300px;
+    margin-right: 200px;
     border-radius: 5px;
 }
 
@@ -286,7 +286,7 @@ section {
 .image4 {
     width: 600px;
     height: 450px;
-    margin-right: 300px;
+    margin-right: 200px;
     border-radius: 5px;
 }
 

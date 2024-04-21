@@ -203,10 +203,10 @@ section {
 
 /* Text class styles */
 .text {
-    font-size: 2vmax;
+    font-size: 1.7vmax;
     font-family: 'Booker';
     color: 00aaff;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     vertical-align: top;
     margin-left: 50px; /* Updated */
@@ -215,19 +215,19 @@ section {
 
 /* Part class styles */
 .part {
-    font-size: 2vmax;
+    font-size: 1.7vmax;
     font-family: 'Booker';
     color: 00aaff;
-    text-align: center;
+    text-align: right;
     display: inline-block;
     vertical-align: top;
     margin-right: 50px; /* Updated */
 }
 .word {
-    font-size: 2vmax;
+    font-size: 1.7vmax;
     font-family: 'Booker';
     color: 00aaff;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     vertical-align: top;
     margin-left: 50px; /* Updated */
@@ -235,20 +235,20 @@ section {
 }
 
 .type {
-    font-size: 2vmax;
+    font-size: 1.7vmax;
     font-family: 'Booker';
     color: 00aaff;
-    text-align: center;
+    text-align: right;
     display: inline-block;
     vertical-align: top;
     margin-right: 50px; /* Updated */
 }
 
 .mark {
-    font-size: 2vmax;
+    font-size: 1.7vmax;
     font-family: 'Booker';
     color: 00aaff;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     vertical-align: top;
     margin-left: 50px; /* Updated */

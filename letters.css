@@ -1,6 +1,11 @@
 @font-face {
     font-family: Bebas;
-    src: url(BebasNeue-Regular.ttf);
+    src: url(BebasNeue-Bold.otf);
+}
+
+@font-face {
+    font-family: BebasReg;
+    src: url(BebasNeue-Book.otf);
 }
 
 @font-face {
@@ -9,15 +14,14 @@
 }
 
 @font-face {
-    font-family: 'Bubble';
-    src: url('JandaManateeBubble.ttf');
-  }
-
-  @font-face {
-    font-family: 'Solid';
-    src: url('JandaManateeSolid.ttf');
+    font-family: Bolder;
+    src: url(Semplicita\ Modern\ Bold.otf);
 }
 
+@font-face {
+    font-family: Booker;
+    src: url(Semplicita\ Modern\ Book.otf);
+}
 h1 {
     font-size: 50px;
     font-family: Bebas;
@@ -185,16 +189,16 @@ header {
 }
 
 .grid-item {
-    color: ghostwhite;
-    font-family: 'Solid';
-    font-size: 20px;
+    color: black;
+    font-family: 'Booker';
+    font-size: 1.5vmax;
     padding: 20px; /* Reduced padding for cleaner look */
 }
 
 .bold {
-    font-family: 'Solid';
-    color: #00aaff;
-    font-size: 20px;
+    font-family: 'Bolder';
+    color: ghostwhite;
+    font-size: 1.3vmax;
 }
 
 .grid-picture {
@@ -204,8 +208,8 @@ header {
 }
 
 .grid-picture img {
-    max-width: 100%; /* Adjusted max-width for responsiveness */
-    max-height: 100%; /* Adjusted max-height for responsiveness */
+    max-width: 150%; /* Adjusted max-width for responsiveness */
+    max-height: 150%; /* Adjusted max-height for responsiveness */
     border-radius: 10px; /* Added border radius for rounded corners */
 }
 

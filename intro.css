@@ -198,9 +198,9 @@ section {
 
 /* Text class styles */
 .text {
-    font-size: 1.2vmax;
+    font-size: 1.5vmax;
     font-family: 'Bebas';
-    color: ghostwhite;
+    color: #676767;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -210,18 +210,18 @@ section {
 
 /* Part class styles */
 .part {
-    font-size: 1.2vmax;
+    font-size: 1.5vmax;
     font-family: 'Bebas';
-    color: ghostwhite;
+    color: #676767;
     text-align: center;
     display: inline-block;
     vertical-align: top;
     margin-right: 50px; /* Updated */
 }
 .word {
-    font-size: 1.2vmax;
+    font-size: 1.5vmax;
     font-family: 'Bebas';
-    color: ghostwhite;
+    color: #676767;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -230,9 +230,9 @@ section {
 }
 
 .type {
-    font-size: 1.2vmax;
+    font-size: 1.5vmax;
     font-family: 'Bebas';
-    color: ghostwhite;
+    color: #676767;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -240,9 +240,9 @@ section {
 }
 
 .mark {
-    font-size: 1.2vmax;
+    font-size: 1.5vmax;
     font-family: 'Bebas';
-    color: ghostwhite;
+    color: #676767;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -259,8 +259,8 @@ section {
 }
 
 .bold {
-    font-family: 'Solid';
-    color: #00aaff;
+    font-family: 'Bebas';
+    color: ghostwhite;
 }
 
 /* Image class styles */

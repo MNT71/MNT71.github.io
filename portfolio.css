@@ -180,7 +180,7 @@ header {
 /*------------------------------------------------*/
 .grid-container {
     display: grid;
-    padding-top: 100px; 
+    padding-top: 50px; 
     grid-template-columns: 180px 700px; ; /* Adjust column width */
     gap: 80px;
     grid-auto-rows: 300px; /* Each row height */
@@ -202,8 +202,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /*padding-top: 100px;
+    padding-bottom: 100px;*/
     /* Your other styling for the container */
   }
   
@@ -218,8 +218,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    /*padding-top: 150px;
+    padding-bottom: 150px;*/
     /* Your other styling for the container */
   }
   
@@ -227,8 +227,8 @@ header {
     max-width: 200px;
     max-height: auto;
     border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
   }
   
   .grid-picture2 img {
@@ -241,8 +241,8 @@ header {
     max-width: 200px;
     max-height: auto;
     border-radius: 10px;
-    padding-top: 160px;
-    padding-bottom: 160px;
+    /*padding-top: 160px;
+    padding-bottom: 160px;*/
   }
   
   /* Added hover effect for better user interaction */

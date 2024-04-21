@@ -214,7 +214,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 85px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
 
   .pic-container:hover, .pic-container2:hover {
@@ -223,8 +223,8 @@ header {
 
   .word {
     font-size: 1.2vmax;
-    font-family: 'Solid';
-    color: ghostwhite;
+    font-family: 'Bebas';
+    color: cyan;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -234,18 +234,19 @@ header {
 
 .quote{
     font-size: 2.2vmax;
-    font-family: "Solid";
-    color: ghostwhite;
+    font-family: "Bebas";
+    color: cyan;
     text-align: center;
     padding-left: 150px ;
     padding-right: 150px;
     margin-top: 75px;
+    padding-bottom: 10px;
     vertical-align: top;
 }
 
 .bold {
     font-family: 'Solid';
-    color: #00aaff;
+    color: ghostwhite;
 }
   
 /*----------------------------------------*/

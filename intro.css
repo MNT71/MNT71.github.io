@@ -1,6 +1,11 @@
 @font-face {
     font-family: Bebas;
-    src: url(BebasNeue-Regular.ttf);
+    src: url(BebasNeue-Bold.otf);
+}
+
+@font-face {
+    font-family: BebasReg;
+    src: url(BebasNeue-Book.otf);
 }
 
 @font-face {
@@ -8,15 +13,7 @@
     src: url(LEMONMILK-Medium.otf);
 }
 
-@font-face {
-    font-family: 'Bubble';
-    src: url('JandaManateeBubble.ttf');
-  }
 
-  @font-face {
-    font-family: 'Solid';
-    src: url('JandaManateeSolid.ttf');
-}
 
 h1 {
     font-size: 50px;
@@ -55,7 +52,7 @@ body {
     box-sizing: border-box;
     background-image: linear-gradient(to bottom right, #0A2647, #205295, #205295, #205295, #5FBDFF);
     justify-content: center;
-    height: 375vh;
+    height: 400vh;
 }
 
 li,
@@ -199,8 +196,8 @@ section {
 /* Text class styles */
 .text {
     font-size: 2vmax;
-    font-family: 'Bebas';
-    color: cyan;
+    font-family: 'BebasReg';
+    color: ghostwhite;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -211,8 +208,8 @@ section {
 /* Part class styles */
 .part {
     font-size: 2vmax;
-    font-family: 'Bebas';
-    color: cyan;
+    font-family: 'BebasReg';
+    color: ghostwhite;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -220,8 +217,8 @@ section {
 }
 .word {
     font-size: 2vmax;
-    font-family: 'Bebas';
-    color: cyan;
+    font-family: 'BebasReg';
+    color: ghostwhite;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -231,8 +228,8 @@ section {
 
 .type {
     font-size: 2vmax;
-    font-family: 'Bebas';
-    color: cyan;
+    font-family: 'BebasReg';
+    color: ghostwhite;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -241,8 +238,8 @@ section {
 
 .mark {
     font-size: 2vmax;
-    font-family: 'Bebas';
-    color: cyan;
+    font-family: 'BebasReg';
+    color: ghostwhite;
     text-align: center;
     display: inline-block;
     vertical-align: top;

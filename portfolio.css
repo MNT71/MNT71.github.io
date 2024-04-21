@@ -192,8 +192,8 @@ header {
   
   .grid-item {
     color: ghostwhite;
-    font-family: Bolde5;
-    font-size: 20px;
+    font-family: 'Bolder';
+    font-size: 1.5vmax;
     padding: 10px;
     margin-bottom: 20px; /* Add margin between grid items */
   }

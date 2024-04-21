@@ -1,6 +1,11 @@
 @font-face {
     font-family: Bebas;
-    src: url(BebasNeue-Regular.ttf);
+    src: url(BebasNeue-Bold.otf);
+}
+
+@font-face {
+    font-family: BebasReg;
+    src: url(BebasNeue-Book.otf);
 }
 
 @font-face {
@@ -9,13 +14,13 @@
 }
 
 @font-face {
-    font-family: 'Bubble';
-    src: url('JandaManateeBubble.ttf');
-  }
+    font-family: Bolder;
+    src: url(Semplicita\ Modern\ Bold.otf);
+}
 
-  @font-face {
-    font-family: 'Solid';
-    src: url('JandaManateeSolid.ttf');
+@font-face {
+    font-family: Booker;
+    src: url(Semplicita\ Modern\ Book.otf);
 }
 
 h1 {
@@ -222,9 +227,9 @@ header {
   }
 
   .word {
-    font-size: 1.2vmax;
-    font-family: 'Bebas';
-    color: cyan;
+    font-size: 1.7vmax;
+    font-family: 'Booker';
+    color: black;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -234,8 +239,8 @@ header {
 
 .quote{
     font-size: 2.2vmax;
-    font-family: "Bebas";
-    color: cyan;
+    font-family: 'Booker';
+    color: black;
     text-align: center;
     padding-left: 150px ;
     padding-right: 150px;
@@ -245,8 +250,9 @@ header {
 }
 
 .bold {
-    font-family: 'Solid';
+    font-family: 'Bolder';
     color: ghostwhite;
+    font-size: 1.5vmax;
 }
   
 /*----------------------------------------*/

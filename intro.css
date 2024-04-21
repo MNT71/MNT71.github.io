@@ -205,7 +205,7 @@ section {
 .text {
     font-size: 1.7vmax;
     font-family: 'Booker';
-    color: 00aaff;
+    color: black;
     text-align: left;
     display: inline-block;
     vertical-align: top;
@@ -217,7 +217,7 @@ section {
 .part {
     font-size: 1.7vmax;
     font-family: 'Booker';
-    color: 00aaff;
+    color: black;
     text-align: right;
     display: inline-block;
     vertical-align: top;
@@ -226,7 +226,7 @@ section {
 .word {
     font-size: 1.7vmax;
     font-family: 'Booker';
-    color: 00aaff;
+    color: black;
     text-align: left;
     display: inline-block;
     vertical-align: top;
@@ -237,7 +237,7 @@ section {
 .type {
     font-size: 1.7vmax;
     font-family: 'Booker';
-    color: 00aaff;
+    color: black;
     text-align: right;
     display: inline-block;
     vertical-align: top;
@@ -247,7 +247,7 @@ section {
 .mark {
     font-size: 1.7vmax;
     font-family: 'Booker';
-    color: 00aaff;
+    color: black;
     text-align: left;
     display: inline-block;
     vertical-align: top;

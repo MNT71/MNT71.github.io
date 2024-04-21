@@ -200,7 +200,7 @@ section {
 .text {
     font-size: 2vmax;
     font-family: 'Bebas';
-    color: rgb(112, 71, 183);
+    color: cyan;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -212,7 +212,7 @@ section {
 .part {
     font-size: 2vmax;
     font-family: 'Bebas';
-    color: rgb(112, 71, 183);
+    color: cyan;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -221,7 +221,7 @@ section {
 .word {
     font-size: 2vmax;
     font-family: 'Bebas';
-    color: rgb(112, 71, 183);
+    color: cyan;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -232,7 +232,7 @@ section {
 .type {
     font-size: 2vmax;
     font-family: 'Bebas';
-    color: rgb(112, 71, 183);
+    color: cyan;
     text-align: center;
     display: inline-block;
     vertical-align: top;
@@ -242,7 +242,7 @@ section {
 .mark {
     font-size: 2vmax;
     font-family: 'Bebas';
-    color: rgb(112, 71, 183);
+    color: cyan;
     text-align: center;
     display: inline-block;
     vertical-align: top;

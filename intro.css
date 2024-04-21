@@ -266,7 +266,7 @@ section {
 .bold {
     font-family: 'Bolder';
     color: ghostwhite;
-    font-size: 1.5px;
+    font-size: 1.5vmax;
 }
 
 /* Image class styles */

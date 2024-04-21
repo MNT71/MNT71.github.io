@@ -183,7 +183,7 @@ header {
     padding-top: 60px;
     grid-template-columns: 1fr 2fr; /* Adjusted to use fractional units */
     grid-auto-rows: auto; /* Changed to auto to accommodate variable content */
-    gap: 30px; /* Reduced gap between grid items */
+    gap: 90px; /* Reduced gap between grid items */
     margin: 0 auto; /* Align center horizontally */
     max-width: 1000px; /* Added max-width for better responsiveness */
 }

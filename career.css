@@ -268,7 +268,7 @@ header {
     padding: 15px 25px; /* Increase padding to make the button larger */
     background-color: #007bff; /* Button background color */
     color: #fff; /* Button text color */
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;

@@ -225,14 +225,15 @@ header {
 }
 
 .next-page-button .button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Button text color */
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  font-family: LemMed;
+    display: inline-block;
+    padding: 15px 25px; /* Increase padding to make the button larger */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: LemMed;
 }
 
 .next-page-button .button:hover {

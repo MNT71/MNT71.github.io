@@ -1,22 +1,18 @@
 @font-face {
-    font-family: 'Bebas';
-    src: url('BebasNeue-Regular.ttf') format('truetype');
-  }
+  font-family: Bebas;
+  src: url(BebasNeue-Bold.otf);
+}
 
-  @font-face {
-    font-family: 'LemMed';
-    src: url('LEMONMILK-Medium.otf') format('opentype');
-  }
+@font-face {
+  font-family: LemMed;
+  src: url(LEMONMILK-Medium.otf);
+}
 
-  @font-face {
-    font-family: 'Bubble';
-    src: url('JandaManateeBubble.ttf');
-  }
+@font-face {
+  font-family: Bolder;
+  src: url(Semplicita\ Modern\ Bold.otf);
+}
 
-  @font-face {
-    font-family: 'Solid';
-    src: url('JandaManateeSolid.ttf');
-  }
   h1 {
     font-size: 50px;
     font-family: 'Bebas', sans-serif;
@@ -178,17 +174,18 @@
 }
 
 .text {
-  font-family: 'Solid';
+  font-family: 'Bolder';
   text-align: center;
-  font-size: 1.2vmax;
+  font-size: 1.65vmax;
   padding: 0 10px;
-  width: 100%;
-  color: ghostwhite;
+  width: 100%; 
+  color: black;
 }
 
-.bold {
-  font-family: 'Solid';
-  color: #00aaff;
+.bold{
+  font-family: 'Bolder';
+  color: ghostwhite;
+  font-size: 1.65vmax;
 }
 
 .grid-picture {

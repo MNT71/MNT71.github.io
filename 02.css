@@ -180,7 +180,7 @@
   padding-left: -100px;
   grid-template-columns: 900px 600px; /* Adjusted grid template columns */
   grid-auto-rows: 500px; /* Each row height is 150px */
-  gap: 50px; /* Decreased gap between grid items */
+  gap: 0px; /* Decreased gap between grid items */
   margin: 0 auto; /* Align center horizontally */
   max-width: 1300px; /* Added max-width for the container */
 }
@@ -189,7 +189,7 @@
   font-family: 'Bolder';
   text-align: center;
   font-size: 1.65vmax;
-  padding: 0 10px;
+  margin-left: -100px;
   width: 100%;
   color: black;
 }

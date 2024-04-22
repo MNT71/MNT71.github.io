@@ -178,9 +178,9 @@
   display: grid;
   padding-top: 30px;
   padding-left: -100px;
-  grid-template-columns: 900px 600px; /* Adjusted grid template columns */
+  grid-template-columns: 750px 600px; /* Adjusted grid template columns */
   grid-auto-rows: 500px; /* Each row height is 150px */
-  gap: 0px; /* Decreased gap between grid items */
+  gap: 0; /* Decreased gap between grid items */
   margin: 0 auto; /* Align center horizontally */
   max-width: 1300px; /* Added max-width for the container */
 }
@@ -189,7 +189,8 @@
   font-family: 'Bolder';
   text-align: center;
   font-size: 1.65vmax;
-  margin-left: -100px;
+  padding: 0 10px;
+  margin-left:-42px;
   width: 100%;
   color: black;
 }
@@ -215,7 +216,7 @@
 }
 
 .slideshow img {
-  width: 99%;
+  width: 90%;
   height: auto;
   display: none;
 }
@@ -230,7 +231,6 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 100px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {

@@ -50,7 +50,7 @@
     align-items: center;
     background-image: linear-gradient(to bottom right, #0A2647, #205295, #5FBDFF);
     justify-content: center;
-    height: 100vh;
+    height: 110vh;
     font-family: 'LemMed', sans-serif;
     color: #BBE1FA;
   }
@@ -175,6 +175,7 @@
 
 .text {
   font-family: 'Bolder';
+    line-height: 125%;
   text-align: center;
   font-size: 1.65vmax;
   padding: 0 10px;
@@ -195,7 +196,7 @@
 }
 
 .slideshow img {
-  width: 90%;
+  width: 80%;
   height: auto;
   display: none;
 }
@@ -210,7 +211,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 475px; /* Adjust the margin as needed */
+    margin-top: 400px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {

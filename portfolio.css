@@ -201,33 +201,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*padding-top: 100px;
-    padding-bottom: 100px;*/
-    /* Your other styling for the container */
   }
   
   .grid-picture2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Your other styling for the container */
   }
   
   .grid-picture3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*padding-top: 150px;
-    padding-bottom: 150px;*/
-    /* Your other styling for the container */
   }
   
   .grid-picture img {
     max-width: 200px;
     max-height: auto;
     border-radius: 10px;
-    /*padding-top: 30px;
-    padding-bottom: 30px;*/
   }
   
   .grid-picture2 img {
@@ -237,14 +228,11 @@ header {
   }
   
   .grid-picture3 img {
-    max-width: 200px;
+    max-width: 250px;
     max-height: auto;
     border-radius: 10px;
-    /*padding-top: 160px;
-    padding-bottom: 160px;*/
   }
   
-  /* Added hover effect for better user interaction */
   .grid-picture img:hover,
   .grid-picture2 img:hover,
   .grid-picture3 img:hover {

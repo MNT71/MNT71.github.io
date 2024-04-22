@@ -186,7 +186,7 @@
 .text {
   font-family: 'Booker';
   text-align: center;
-  font-size: 2vmax;
+  font-size: 1.75vmax;
   padding: 0 10px;
   width: 100%; 
   color: black;
@@ -195,7 +195,7 @@
 .bold{
   font-family: 'Bolder';
   color: ghostwhite;
-  font-size: 1.7vmax;
+  font-size: 1.4vmax;
 }
 
 .grid-picture {

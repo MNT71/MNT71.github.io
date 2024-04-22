@@ -209,12 +209,6 @@ header {
     align-items: center;
   }
   
-  .grid-picture3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
   .grid-picture img {
     max-width: 200px;
     max-height: auto;
@@ -226,12 +220,7 @@ header {
     max-height: auto;
     border-radius: 10px;
   }
-  
-  .grid-picture3 img {
-    max-width: 250px;
-    max-height: auto;
-    border-radius: 10px;
-  }
+
   
   .grid-picture img:hover,
   .grid-picture2 img:hover,

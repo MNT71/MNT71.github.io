@@ -183,7 +183,7 @@ header {
     padding-top: 50px; 
     grid-template-columns: 180px 700px; ; /* Adjust column width */
     grid-auto-rows: 240px; /* Each row height */
-    row-gap: 40px; /* Increase the vertical gap between grid items */
+    row-gap: 70px; /* Increase the vertical gap between grid items */
     column-gap: 80px; /* Increase the horizontal gap between grid items */
     margin: 0 auto; /* Align center horizontally */
     width: fit-content; /* Adjust width to content */
@@ -192,7 +192,7 @@ header {
   .grid-item {
     color: ghostwhite;
     font-family: 'Bolder';
-    font-size: 1.5vmax;
+    font-size: 1.7vmax;
     padding: 10px;
     margin-bottom: 20px; /* Add margin between grid items */
   }

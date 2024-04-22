@@ -18,11 +18,6 @@
   src: url(Semplicita\ Modern\ Bold.otf);
 }
 
-@font-face {
-  font-family: Booker;
-  src: url(Semplicita\ Modern\ Book.otf);
-}
-
   h1 {
     font-size: 50px;
     font-family: 'Bebas', sans-serif;
@@ -184,9 +179,9 @@
 }
 
 .text {
-  font-family: 'Booker';
+  font-family: 'Bolder';
   text-align: center;
-  font-size: 1.8vmax;
+  font-size: 1.5vmax;
   padding: 0 10px;
   width: 100%; 
   color: black;
@@ -195,7 +190,7 @@
 .bold{
   font-family: 'Bolder';
   color: ghostwhite;
-  font-size: 1.4vmax;
+  font-size: 1.5vmax;
 }
 
 .grid-picture {
@@ -220,7 +215,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 460px; /* Adjust the margin as needed */
+    margin-top: 475px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {

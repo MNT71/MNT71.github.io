@@ -203,8 +203,8 @@ section {
 
 /* Text class styles */
 .text {
-    font-size: 1.7vmax;
-    font-family: 'Booker';
+    font-size: 1.5vmax;
+    font-family: 'Bolder';
     color: black;
     text-align: left;
     display: inline-block;
@@ -215,8 +215,8 @@ section {
 
 /* Part class styles */
 .part {
-    font-size: 1.7vmax;
-    font-family: 'Booker';
+    font-size: 1.5vmax;
+    font-family: 'Bolder';
     color: black;
     text-align: right;
     display: inline-block;
@@ -224,8 +224,8 @@ section {
     margin-right: 50px; /* Updated */
 }
 .word {
-    font-size: 1.7vmax;
-    font-family: 'Booker';
+    font-size: 1.5vmax;
+    font-family: 'Bolder';
     color: black;
     text-align: left;
     display: inline-block;
@@ -235,8 +235,8 @@ section {
 }
 
 .type {
-    font-size: 1.7vmax;
-    font-family: 'Booker';
+    font-size: 1.5vmax;
+    font-family: 'Bolder';
     color: black;
     text-align: right;
     display: inline-block;
@@ -245,8 +245,8 @@ section {
 }
 
 .mark {
-    font-size: 1.7vmax;
-    font-family: 'Booker';
+    font-size: 1.5vmax;
+    font-family: 'Bolder';
     color: black;
     text-align: left;
     display: inline-block;

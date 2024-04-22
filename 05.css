@@ -178,17 +178,18 @@
 }
 
 .text {
-  font-family: 'Solid';
+  font-family: 'Bolder';
   text-align: center;
-  font-size: 1.2vmax;
+  font-size: 1.7vmax;
   padding: 0 10px;
   width: 100%; 
-  color: ghostwhite;
+  color: black;
 }
 
 .bold{
-  font-family: 'Solid';
-  color: #00aaff;
+  font-family: 'Bolder';
+  color: ghostwhite;
+  font-size: 1.7vmax;
 }
 
 .grid-picture {
@@ -198,7 +199,7 @@
 }
 
 .slideshow img {
-  width: 78%;
+  width: 90%;
   height: auto;
   display: none;
 }
@@ -213,7 +214,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 450px; /* Adjust the margin as needed */
+    margin-top: 475px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {
@@ -227,7 +228,6 @@
     transition: background-color 0.3s ease;
     font-family: LemMed;
 }
-
 .next-page-button .button:hover {
     background-color: #0056b3; /* Button background color on hover */
 }

@@ -177,7 +177,7 @@
 .container {
   display: grid;
   padding-top: 30px;
-  grid-template-columns: 600px 900px; /* Adjusted grid template columns */
+  grid-template-columns: 900px 900px; /* Adjusted grid template columns */
   grid-auto-rows: 500px; /* Each row height is 150px */
   gap: 50px; /* Decreased gap between grid items */
   margin: 0 auto; /* Align center horizontally */
@@ -214,7 +214,7 @@
 }
 
 .slideshow img {
-  width: 120%;
+  width: 110%;
   height: auto;
   display: none;
 }

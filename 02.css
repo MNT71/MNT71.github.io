@@ -1,22 +1,28 @@
 @font-face {
-    font-family: 'Bebas';
-    src: url('BebasNeue-Regular.ttf') format('truetype');
-  }
+  font-family: Bebas;
+  src: url(BebasNeue-Bold.otf);
+}
 
-  @font-face {
-    font-family: 'LemMed';
-    src: url('LEMONMILK-Medium.otf') format('opentype');
-  }
+@font-face {
+  font-family: BebasReg;
+  src: url(BebasNeue-Book.otf);
+}
 
-  @font-face {
-    font-family: 'Bubble';
-    src: url('JandaManateeBubble.ttf');
-  }
+@font-face {
+  font-family: LemMed;
+  src: url(LEMONMILK-Medium.otf);
+}
 
-  @font-face {
-    font-family: 'Solid';
-    src: url('JandaManateeSolid.ttf');
-  }
+@font-face {
+  font-family: Bolder;
+  src: url(Semplicita\ Modern\ Bold.otf);
+}
+
+@font-face {
+  font-family: Booker;
+  src: url(Semplicita\ Modern\ Book.otf);
+}
+
   
   h1 {
     font-size: 50px;
@@ -179,17 +185,18 @@
 }
 
 .text {
-  font-family: 'Solid';
+  font-family: 'Booker';
   text-align: center;
-  font-size: 1.2vmax;
+  font-size: 1.75vmax;
   padding: 0 10px;
   width: 100%;
-  color: ghostwhite;
+  color: black;
 }
 
 .bold {
-  font-family: 'Solid';
-  color: #00aaff;
+  font-family: 'Bolder';
+  color: ghostwhite;
+  font-size: 1.4vmax;
 }
 
 .grid-picture {
@@ -200,14 +207,14 @@
 }
 
 .slideshow {
-  margin-top: 80px; /* Adjusted margin-top */
+  margin-top: 50px; /* Adjusted margin-top */
   position: relative;
   overflow: hidden;
   flex: 1;
 }
 
 .slideshow img {
-  width: 99%;
+  width: 120%;
   height: auto;
   display: none;
 }

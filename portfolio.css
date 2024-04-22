@@ -182,7 +182,7 @@ header {
     display: grid;
     padding-top: 50px; 
     grid-template-columns: 180px 700px; ; /* Adjust column width */
-    grid-auto-rows: 240px; /* Each row height */
+    grid-auto-rows: 220px; /* Each row height */
     row-gap: 70px; /* Increase the vertical gap between grid items */
     column-gap: 80px; /* Increase the horizontal gap between grid items */
     margin: 0 auto; /* Align center horizontally */

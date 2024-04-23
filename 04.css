@@ -166,7 +166,7 @@
 .container {
   display: grid;
   padding-top: 30px;
-  grid-template-columns: 800px 500px; /* 2 columns */
+  grid-template-columns: 850px 500px; /* 2 columns */
   grid-auto-rows: 150px; /* Each row height is 150px */
   gap: 115px; /* Gap between grid items */
   margin: 0 auto; /* Align center horizontally */
@@ -177,7 +177,7 @@
   font-family: 'Bolder';
     line-height: 125%;
   text-align: center;
-  font-size: 1.65vmax;
+  font-size: 28px;
   padding: 0 10px;
   width: 100%; 
   color: black;
@@ -186,7 +186,6 @@
 .bold{
   font-family: 'Bolder';
   color: ghostwhite;
-  font-size: 1.65vmax;
 }
 
 .grid-picture {
@@ -196,7 +195,7 @@
 }
 
 .slideshow img {
-  width: 80%;
+  width: 95%;
   height: auto;
   display: none;
 }
@@ -211,7 +210,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 430px; /* Adjust the margin as needed */
+    margin-top: 500px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {

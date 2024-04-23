@@ -1,22 +1,18 @@
 @font-face {
-  font-family: 'Bebas';
-  src: url('BebasNeue-Regular.ttf') format('truetype');
+  font-family: Bebas;
+  src: url(BebasNeue-Bold.otf);
 }
 
 @font-face {
-  font-family: 'LemMed';
-  src: url('LEMONMILK-Medium.otf') format('opentype');
+  font-family: LemMed;
+  src: url(LEMONMILK-Medium.otf);
 }
 
 @font-face {
-  font-family: 'Bubble';
-  src: url('JandaManateeBubble.ttf');
+  font-family: Bolder;
+  src: url(Semplicita\ Modern\ Bold.otf);
 }
 
-@font-face {
-  font-family: 'Solid';
-  src: url('JandaManateeSolid.ttf');
-}
 h1 {
   font-size: 50px;
   font-family: 'Bebas', sans-serif;
@@ -168,44 +164,52 @@ header {
 /*------------------------------*/
 
 .container {
-display: grid;
-padding-top: 30px;
-grid-template-columns: 800px 650px; /* 2 columns */
-grid-auto-rows: 150px; /* Each row height is 150px */
-gap: 125px; /* Gap between grid items */
-margin: 0 auto; /* Align center horizontally */
-width: fit-content; /* Adjust width to content */
+  display: grid;
+  padding-top: 30px;
+  grid-template-columns: 900px 600px; /* Adjusted grid template columns */
+  grid-auto-rows: 500px; /* Each row height is 150px */
+  gap: 0; /* Decreased gap between grid items */
+  margin: 0 auto; /* Align center horizontally */
+  max-width: 1300px; /* Added max-width for the container */
 }
 
 .text {
-font-family: 'Solid';
-text-align: center;
-font-size: 1.2vmax;
-padding: 0 10px;
-width: 100%; 
-color: ghostwhite;
+  font-family: 'Bolder';
+  text-align: center;
+  font-size: 29px;
+  padding: 0 10px;
+  line-height: 110%;
+  margin-left:-100px;
+  width: 100%;
+  color: black;
 }
 
-.bold{
-font-family: 'Solid';
-color: #00aaff;
+.bold {
+  font-family: 'Bolder';
+  color: ghostwhite;
 }
 
 .grid-picture {
-  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.slideshow {
+  margin-top: 100px; /* Adjusted margin-top */
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+}
+
 .slideshow img {
-width: 95%;
-height: auto;
-display: none;
+  width: 100%;
+  height: auto;
+  display: none;
 }
 
 .slideshow img.active {
-display: block;
+  display: block;
 }
 
 
@@ -213,8 +217,8 @@ display: block;
 /*--------------------------------*/
 
 .next-page-button {
-  text-align: center;
-  margin-top: 400px; /* Adjust the margin as needed */
+    text-align: center;
+    margin-top: 150px;
 }
 
 .next-page-button .button {
@@ -230,5 +234,5 @@ display: block;
 }
 
 .next-page-button .button:hover {
-  background-color: #0056b3; /* Button background color on hover */
+    background-color: #0056b3; /* Button background color on hover */
 }

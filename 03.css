@@ -198,6 +198,7 @@
   width: 95%;
   height: auto;
   display: none;
+  border-radius: 10px;
 }
 
 .slideshow img.active {

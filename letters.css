@@ -189,8 +189,8 @@ header {
 }
 
 .grid-item {
-    color: black;
-    font-family: 'Booker';
+    color: #a4cef0;
+    font-family: 'Bolder';
     font-size: 1.5vmax;
     padding: 20px; /* Reduced padding for cleaner look */
 }

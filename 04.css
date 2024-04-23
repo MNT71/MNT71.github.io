@@ -168,13 +168,14 @@
   padding-top: 30px;
   grid-template-columns: 800px 500px; /* 2 columns */
   grid-auto-rows: 150px; /* Each row height is 150px */
-  gap: 125px; /* Gap between grid items */
+  gap: 115px; /* Gap between grid items */
   margin: 0 auto; /* Align center horizontally */
   width: fit-content; /* Adjust width to content */
 }
 
 .text {
   font-family: 'Bolder';
+    line-height: 125%;
   text-align: center;
   font-size: 1.65vmax;
   padding: 0 10px;
@@ -195,7 +196,7 @@
 }
 
 .slideshow img {
-  width: 90%;
+  width: 80%;
   height: auto;
   display: none;
 }
@@ -210,7 +211,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 550px; /* Adjust the margin as needed */
+    margin-top: 430px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {

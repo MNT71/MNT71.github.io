@@ -165,8 +165,8 @@ header {
 /*--------------------------------*/
 
 .image {
-    max-width: 28%; /* Set maximum width of the image */
-    max-height: 28%; /* Set maximum height of the image */
+    max-width: 30%; /* Set maximum width of the image */
+    max-height: 30%; /* Set maximum height of the image */
     display: block; /* Ensure the image is displayed as a block */
     margin: auto; /* Center the image horizontally */
     transition: transform 0.3s ease; /* Apply transition effect */

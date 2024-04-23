@@ -1,22 +1,29 @@
 @font-face {
-    font-family: 'Bebas';
-    src: url('BebasNeue-Regular.ttf') format('truetype');
-  }
+  font-family: Bebas;
+  src: url(BebasNeue-Bold.otf);
+}
 
-  @font-face {
-    font-family: 'LemMed';
-    src: url('LEMONMILK-Medium.otf') format('opentype');
-  }
+@font-face {
+  font-family: BebasReg;
+  src: url(BebasNeue-Book.otf);
+}
 
-  @font-face {
-    font-family: 'Bubble';
-    src: url('JandaManateeBubble.ttf');
-  }
+@font-face {
+  font-family: LemMed;
+  src: url(LEMONMILK-Medium.otf);
+}
 
-  @font-face {
-    font-family: 'Solid';
-    src: url('JandaManateeSolid.ttf');
-  }
+@font-face {
+  font-family: Bolder;
+  src: url(Semplicita\ Modern\ Bold.otf);
+}
+
+@font-face {
+  font-family: Booker;
+  src: url(Semplicita\ Modern\ Book.otf);
+}
+
+  
   h1 {
     font-size: 50px;
     font-family: 'Bebas', sans-serif;
@@ -170,45 +177,47 @@
 .container {
   display: grid;
   padding-top: 30px;
-  grid-template-columns: 800px 500px; /* Adjusted grid template columns */
-  grid-auto-rows: 500px; /* Each row height is 150px */
-  gap: 50px; /* Decreased gap between grid items */
+  grid-template-columns: 900px 600px; /* Adjusted grid template columns */
+  grid-auto-rows: 700px; /* Each row height is 150px */
+  gap: 0; /* Decreased gap between grid items */
   margin: 0 auto; /* Align center horizontally */
   max-width: 1300px; /* Added max-width for the container */
 }
 
 .text {
-  font-family: 'Solid';
+  font-family: 'Bolder';
   text-align: center;
-  font-size: 1.2vmax;
+  font-size: 28px;
   padding: 0 10px;
+  line-height: 110%;
+  margin-left:-100px;
   width: 100%;
-  color: ghostwhite;
+  color: #a4cef0;
 }
 
 .bold {
-  font-family: 'Solid';
-  color: #00aaff;
+  font-family: 'Bolder';
+  color: ghostwhite;
 }
 
 .grid-picture {
-  margin-top: 50px; /* Adjusted margin-top */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .slideshow {
-  margin-top: 80px; /* Adjusted margin-top */
+  margin-top: 100px; /* Adjusted margin-top */
   position: relative;
   overflow: hidden;
   flex: 1;
 }
 
 .slideshow img {
-  width: 99%;
+  width: 100%;
   height: auto;
   display: none;
+  border-radius: 10px;
 }
 
 .slideshow img.active {
@@ -221,7 +230,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 100px; /* Adjust the margin as needed */
+    margin-top: -20px;
 }
 
 .next-page-button .button {

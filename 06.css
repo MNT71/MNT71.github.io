@@ -166,17 +166,18 @@
 .container {
   display: grid;
   padding-top: 30px;
-  grid-template-columns: 800px 500px; /* Adjusted grid template columns */
-  grid-auto-rows: 500px; /* Each row height is 150px */
-  gap: 50px; /* Decreased gap between grid items */
+  grid-template-columns: 875px 500px; /* 2 columns */
+  grid-auto-rows: 150px; /* Each row height is 150px */
+  gap: 115px; /* Gap between grid items */
   margin: 0 auto; /* Align center horizontally */
-  max-width: 1300px; /* Added max-width for the container */
+  width: fit-content; /* Adjust width to content */
 }
 
 .text {
   font-family: 'Bolder';
+    line-height: 125%;
   text-align: center;
-  font-size: 1.65vmax;
+  font-size: 28px;
   padding: 0 10px;
   width: 100%; 
   color: black;
@@ -185,25 +186,17 @@
 .bold{
   font-family: 'Bolder';
   color: ghostwhite;
-  font-size: 1.65vmax;
 }
 
 .grid-picture {
-  margin-top: 50px; /* Adjusted margin-top */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.slideshow {
-  margin-top: 80px; /* Adjusted margin-top */
-  position: relative;
-  overflow: hidden;
-  flex: 1;
-}
-
 .slideshow img {
-  width: 99%;
+    margin-top: 100px;
+  width: 110%;
   height: auto;
   display: none;
 }
@@ -218,7 +211,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 110px; /* Adjust the margin as needed */
+    margin-top: 500px; /* Adjust the margin as needed */
 }
 
 .next-page-button .button {
@@ -232,7 +225,6 @@
     transition: background-color 0.3s ease;
     font-family: LemMed;
 }
-
 .next-page-button .button:hover {
     background-color: #0056b3; /* Button background color on hover */
 }

@@ -166,9 +166,9 @@
 .container {
   display: grid;
   padding-top: 30px;
-  grid-template-columns: 800px 500px; /* Adjusted grid template columns */
+  grid-template-columns: 900px 600px; /* Adjusted grid template columns */
   grid-auto-rows: 500px; /* Each row height is 150px */
-  gap: 50px; /* Decreased gap between grid items */
+  gap: 0; /* Decreased gap between grid items */
   margin: 0 auto; /* Align center horizontally */
   max-width: 1300px; /* Added max-width for the container */
 }
@@ -176,34 +176,34 @@
 .text {
   font-family: 'Bolder';
   text-align: center;
-  font-size: 1.65vmax;
+  font-size: 30px;
   padding: 0 10px;
-  width: 100%; 
+  line-height: 110%;
+  margin-left:-100px;
+  width: 100%;
   color: black;
 }
 
-.bold{
+.bold {
   font-family: 'Bolder';
   color: ghostwhite;
-  font-size: 1.65vmax;
 }
 
 .grid-picture {
-  margin-top: 50px; /* Adjusted margin-top */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .slideshow {
-  margin-top: 80px; /* Adjusted margin-top */
+  margin-top: 100px; /* Adjusted margin-top */
   position: relative;
   overflow: hidden;
   flex: 1;
 }
 
 .slideshow img {
-  width: 99%;
+  width: 100%;
   height: auto;
   display: none;
 }
@@ -218,7 +218,7 @@
 
 .next-page-button {
     text-align: center;
-    margin-top: 100px; /* Adjust the margin as needed */
+    margin-top: 140px;
 }
 
 .next-page-button .button {
